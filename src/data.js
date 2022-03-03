@@ -47,7 +47,7 @@ export const popularProducts = [
   },
   {
     id: 2,
-    img: "https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+    img: "https://www.nicepng.com/png/full/224-2242136_this-exclusive-pink-floyd-t-shirt-takes-a.png",
   },
   {
     id: 3,
@@ -67,7 +67,7 @@ export const popularProducts = [
   },
   {
     id: 7,
-    img: "https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+    img: "https://www.nicepng.com/png/full/55-554768_selkirk-all-weather-outdoor-jacket-jacket.png",
   },
   {
     id: 8,
