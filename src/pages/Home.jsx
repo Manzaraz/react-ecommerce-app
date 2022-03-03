@@ -1,14 +1,16 @@
 // import Announcement from "../components/Announcement";
 import Announcement from "../components/Announcement";
+import Categories from "../components/Categories";
 import Navbar from "../components/Navbar";
-import Slide from "../components/Slider";
+import Slider from "../components/Slider";
 
 const Home = () => {
   return (
     <>
       <Announcement />
       <Navbar />
-      <Slide />
+      <Slider />
+      <Categories />
     </>
   );
 };
