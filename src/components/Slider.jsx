@@ -8,7 +8,6 @@ const Container = styled.div`
   height: 100vh;
   display: flex;
   position: relative;
-  /* background-color: coral; */
   overflow: hidden;
 `;
 
