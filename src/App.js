@@ -1,7 +1,8 @@
 // import Home from "./pages/Home";
 // import Product from "./pages/Product";
 // import ProductList from "./pages/ProductList";
-import Register from "./pages/Register";
+// import Register from "./pages/Register";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       {/* <Home /> */}
       {/* <ProductList /> */}
       {/* <Product /> */}
-      <Register />
+      {/* <Register /> */}
+      <Login />
     </div>
   );
 }
