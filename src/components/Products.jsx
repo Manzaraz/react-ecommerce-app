@@ -59,13 +59,15 @@ const Products = ({ cat, filters, sort }) => {
     }
   }, [sort]);
 
-  console.log(products);
+  // console.log(products);
 
   return (
     <Container>
-      {filteredProducts.map((item) => (
-        <Product item={item} key={item.id} />
-      ))}
+      {cat
+        ? filteredProducts.map((item) => <Product item={item} key={item.id} />)
+        : products
+            .slice(0, 11)
+            .map((item) => <Product item={item} key={item.id} />)}
     </Container>
   );
 };

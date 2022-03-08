@@ -1,21 +1,21 @@
 export const sliderItems = [
   {
     id: 1,
-    img: "https://i.ibb.co/DG69bQ4/2.png",
+    img: "https://pbs.twimg.com/media/CDNq8zyXIAE_VyY?format=jpg&name=medium",
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "f5fafd",
   },
   {
     id: 2,
-    img: "https://www.pngmart.com/files/3/Gabriella-Wilde-Transparent-PNG.png",
+    img: "https://media.revistagq.com/photos/5ca5e813e4ce212cd3b000e9/master/pass/marc_marquez_sara_sampaio_gas_785028516.jpg",
     title: "AUTUMN COLLECTION",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "fcf1ed",
   },
   {
     id: 3,
-    img: "https://i.ibb.co/cXFnLLV/3.png",
+    img: "http://static1.squarespace.com/static/56c346b607eaa09d9189a870/58a5e0228748e3882e59888a/58a5e0a78748e3882e599006/1487265959376/2014-04-08-2-FINAL.jpg?format=original",
     title: "LOUNGEWEAR LOVE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "fbf0f4",
@@ -25,20 +25,20 @@ export const sliderItems = [
 export const categories = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "SHIRT STYLE!",
+    img: "https://i.mdel.net/i/db/2018/2/856781/856781-800w.jpg",
+    title: "SUMMER TREND!",
     cat: "hombre",
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-    title: "LOUNGEWEAR LOVE",
-    cat: "summer",
+    img: "https://pbs.twimg.com/media/EcZ5Rw_WkAAYzcl.jpg",
+    title: "RIDE WITH STYLE",
+    cat: "invierno",
   },
   {
     id: 3,
-    img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    title: "LIGHT JACKETS",
+    img: "https://clubdelmotorista.com/wp-content/uploads/2021/02/marc-marquez-motogp-2021-1000x640.jpg",
+    title: "HELLMET & PROTECTIONS",
     cat: "t-shirt",
   },
 ];
