@@ -3,14 +3,17 @@ import { HashRouter } from "react-router-dom";
 import App from "./App";
 // import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
-import store from "./redux/store";
+import { PersistGate } from "redux-persist/integration/react";
+import { persistor, store } from "./redux/store";
 
 const rootElement = document.getElementById("root");
 
 render(
   <HashRouter>
     <Provider store={store}>
-      <App />
+      <PersistGate loading={null} persistor={persistor}>
+        <App />
+      </PersistGate>
     </Provider>
   </HashRouter>,
   rootElement
